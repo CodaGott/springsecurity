@@ -2,6 +2,7 @@ package com.websecurity.config;
 
 import com.websecurity.security.CustomUserDetailsService;
 import com.websecurity.security.JwtAuthenticationEntryPoint;
+import com.websecurity.security.JwtAuthenticationFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
